@@ -270,7 +270,7 @@ a {
 	03. section About
 ---------------------------------------------------*/
 #sectionAbout {
-  background-color: #f7f7f7;
+  background-color: #fff;
   padding: 100px 0px;
 }
 .story {
@@ -357,7 +357,7 @@ a {
 ---------------------------------------------------*/
 
 #sectionResume {
-  background: #fff;
+  background: #f7f7f7;
   padding: 100px 0px;
 }
 
@@ -440,7 +440,7 @@ a {
 
 #sectionPortfolio {
   padding: 100px 0px;
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 .filters li {
   cursor: pointer;
@@ -591,7 +591,7 @@ a {
 ---------------------------------------------------*/
 
 #sectionClients {
-  background: #fff;
+  background: #f7f7f7;
   padding: 100px 0px;
 }
 #sectionClients .sectionTitle {
