@@ -30,9 +30,15 @@ body{
 a:focus {
 	outline: 0;
 	text-decoration: none;
+	font-weight: bold;
 }
 a:hover{
-	text-decoration: none;
+	text-decoration: underline;
+	color: #f73d3d;
+}
+
+a {
+	color: #f73d3d;
 }
 
 /*----- Page Loader -----*/
@@ -167,10 +173,12 @@ a:hover{
 .navbar li a:hover{
 	border-bottom: 1px solid #f73d3d;
 	color: #f73d3d;
+	font-weight:bold;
 }
 .navbar li.active a {
 	border-bottom: 1px solid #f73d3d;
 	color: #f73d3d;
+	font-weight:bold;
 }
 .navbar-toggle {
 	font-size: 30px;
@@ -187,7 +195,7 @@ a:hover{
   	position: relative;
   	width: 100%;
   	min-height: 670px;
-  	background-image:url(https://images.unsplash.com/photo-1503389152951-9f343605f61e);
+  	/* background-image:url(https://images.unsplash.com/photo-1503389152951-9f343605f61e); */
   	background-size: cover;
 }
 .textIntro {
@@ -254,6 +262,9 @@ a:hover{
 	background-color: #f7f7f7;
 	padding: 100px 0px;
 }
+.story {
+	padding-right: 20px;
+}
 .story h2{
 	font-family: "Poppins", sans-serif;
 	font-size: 25px;
@@ -263,6 +274,23 @@ a:hover{
 	margin-bottom: 15px;
 }
 .story p{
+	font-size: 16px;
+	line-height: 32px;
+	font-family: "Lora", serif;
+	color:#666;
+}
+.education{
+	padding-left: 20px; 
+}
+.education h2{
+	font-family: "Poppins", sans-serif;
+	font-size: 25px;
+	color:#111;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+.education p{
 	font-size: 16px;
 	line-height: 32px;
 	font-family: "Lora", serif;
