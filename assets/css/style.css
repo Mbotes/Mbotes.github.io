@@ -217,18 +217,18 @@ a {
 
 .hi h1 {
   letter-spacing: 2px;
-  font-size: 150px;
+  font-size: 120px;
   font-weight: 700;
   color: #fafafa;
   font-family: "Poppins", sans-serif;
   margin-bottom: 15px;
 }
 .hi span {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
-  color: #f73d3d;
+  color: #fafafa;
   margin-bottom: 26px;
   text-transform: uppercase;
 }
@@ -928,6 +928,9 @@ ul.errorMessages li {
   .skills {
     padding-left: 0px;
   }
+  .education{
+	  padding-left:0px;
+  }
   .title-icon h1 {
     font-family: "Poppins", sans-serif;
     color: #000;
@@ -988,14 +991,14 @@ ul.errorMessages li {
     width: 300px;
   }
   .headerTop {
-    background: #000;
+    background: #303948;
     padding: 0px;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
   }
   .headerScroll {
-    background-color: #000;
+    background-color: #303948;
     padding: 0px;
   }
   .navbar li {
@@ -1023,6 +1026,9 @@ ul.errorMessages li {
   }
   .skills {
     padding-left: 0px;
+  }
+  .education{
+	  padding-left: 0px;
   }
   .resume-left {
     text-align: left;

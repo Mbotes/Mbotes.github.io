@@ -6,15 +6,17 @@
 
   <!-- Unfurling Meta Tags -->
   <meta property="og:title" content="Michael Botes">
+  <meta property="og:site_name" content="mbotes.github.io"/>
   <meta property="og:description" content="My name is Michael Botes. I'm a passionate Front-end Engineer and Cloud Enthusiast
-  based in Johannesburg South Africa." />
+  based in Johannesburg, South Africa." />
   <meta property="og:image" content="https://instagram.fjnb10-1.fna.fbcdn.net/v/t51.2885-19/s150x150/40791558_267657970743561_9137823821691092992_n.jpg?_nc_ht=instagram.fjnb10-1.fna.fbcdn.net&_nc_ohc=kLvQvaP_rAEAX9Lc2Op&oh=d02c228d11b8a8d1a2b94d60a3a0d444&oe=5E79A4F2"/>
 
   <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <meta name="description" content="My name is Michael Botes. I'm a passionate Front-end Engineer and Cloud Enthusiast
+  based in Johannesburg, South Africa." />
+  <meta name="author" content="Michael Botes" />
   <!-- Page title
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <title>Michael Botes Portfolio</title>
@@ -83,10 +85,10 @@
                 <li><a href="#sectionIntro" class="easing">Home</a></li>
                 <li><a href="#sectionAbout" class="easing">About</a></li>
                 <li><a href="#sectionResume" class="easing">Resume</a></li>
+                <li><a href="#sectionClients" class="easing">Tech</a></li>
                 <li>
                   <a href="#sectionPortfolio" class="easing">Projects</a>
                 </li>
-                <li><a href="#sectionClients" class="easing">Tech</a></li>
                 <li><a href="#sectionJournal" class="easing">Articles</a></li>
                 <li><a href="#sectionContact" class="easing">Contact</a></li>
               </ul>
@@ -442,7 +444,7 @@
 
     <div class="container">
       <div class="sectionTitle">
-        <h1>Latest projects</h1>
+        <h1>Projects</h1>
 
         <ul class="filters filters-group">
           <li class="filter is-checked" data-filter="*">All</li>
@@ -592,7 +594,7 @@
   <section id="sectionJournal">
     <div class="container">
       <div class="sectionTitle">
-        <h1>Interesting Articles</h1>
+        <h1>Articles</h1>
         <span>From work accomplishments</span>
       </div>
 
@@ -712,6 +714,9 @@
         <a href="https://www.instagram.com/michael_boats/">
           <span aria-hidden="true" class="social_instagram_circle"></span>
         </a>
+        <a href="https://github.com/Mbotes">
+          <span aria-hidden="true" class="social_github_circle"></span>
+        </a>
       </div>
     </div>
   </footer>
@@ -740,16 +745,34 @@
     new WOW().init();
   </script>
   <script src="assets/js/three.r92.min.js"></script>
-  <script src="assets/js/vanta.net.min.js"></script>
+  <!-- <script src="assets/js/vanta.net.min.js"></script>
   <script>
     VANTA.NET({
       el: "#sectionIntro",
       color: "#f73d3d",
       backgroundColor: "#303948",
       points: 7.0,
-      spacing: 20.0
+      spacing: 28.0
     });
-  </script>
+  </script> -->
+
+<script src="assets/js/vanta.birds.min.js"></script>
+<script>
+VANTA.BIRDS({
+  el: "#sectionIntro",
+  backgroundColor: "#303948",
+  color2: "#f73d3d",
+  colorMode: "lerp",
+  birdSize: 1.30,
+  wingSpan: 40.00,
+  speedLimit: 3.00,
+  separation: 100.00,
+  alignment: 1.00,
+  cohesion: 100.00,
+  quantity: 3.00,
+  backgroundAlpha: 1
+})
+</script>
 
   <script>
     $(window).load(function () {
