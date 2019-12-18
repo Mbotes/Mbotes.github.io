@@ -37,8 +37,8 @@
   <link rel="stylesheet" href="assets/icons/Elegant/style.css" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
   <!-- Devicons -->
-  <link rel="stylesheet"
-    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
+  <!-- <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" /> -->
   <script src="assets/js/modernizr.js"></script>
 </head>
 
@@ -105,22 +105,24 @@
 
   <!-- section Intro
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <section id="sectionIntro" class="parallax">
-    <div class="col-md-12 col-sm-12 col-xs-12">
-      <div class="container-fluid">
-        <div class="textIntro">
-          <div class="hi">
-            <h1>Michael Botes</h1>
-            <span>Team Leader, Frontend Engineer, Cloud Enthusiast.</span><br />
-            <a href="#sectionAbout" class="easing">
-              <img src="assets/images/arrow.png" alt="" />
-            </a>
+  <a href="#sectionAbout" class="easing">
+    <section id="sectionIntro" class="parallax">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="container-fluid">
+          <div class="textIntro">
+            <div class="hi">
+              <h1>Michael Botes</h1>
+              <span>Team Leader, Frontend Engineer, Cloud Enthusiast.</span><br />
+              <!-- <a href="#sectionAbout" class="easing">
+                <img src="assets/images/arrow.png" alt="" />
+              </a> -->
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </a>
+
 
   <!-- section About
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -416,7 +418,22 @@
           <div class="clients-bg">Docker</div>
           <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/docker.svg" />
         </div>
-        <!-- Icon  Line 5-->
+         <!-- Icon Line 5 -->
+         <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+          <div class="clients-bg">Mongo DB</div>
+          <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mongodb.svg" />
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+          <div class="clients-bg">Google Analytics</div>
+          <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googleanalytics.svg" />
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
+          <div class="clients-bg">Docker</div>
+          <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/docker.svg" />
+        </div>
+        <!-- Icon  Line 6-->
         <div class="col-md-4 col-sm-12 col-xs-12 clients-box-bot">
           <div class="clients-bg">React.js</div>
           <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/react.svg" />
@@ -456,19 +473,20 @@
       <div id="isotopeGrid" class="mGrid row">
         <div class="gutter-sizer"></div>
 
-        <div class="grid-item no-pad-grid item-five pers fs">
+        <div class="grid-item  item-five pers fs">
           <a class="image-modal" href="#image-modal1">
             <img src="assets/images/portfolio/portfolio.png" alt="" />
 
             <div class="itemHover"></div>
             <h4>Portfolio</h4>
-            <h6>Full Stack</h6>
+            <h6>Front-end</h6>
           </a>
 
           <div id="image-modal1" class="mfp-hide modal-box">
             <img src="assets/images/portfolio/portfolio.png" alt="" />
             <div class="modal-box-content">
               <h4>Portfolio</h4>
+              <h5>December 2019</h5>
               <p>
                 For my portfolio I wanted to use a modern design with colors
                 and style matching my Curriculum Vitae, I also took the
@@ -485,23 +503,24 @@
 
         <div class="grid-item item-five work">
           <a class="image-modal" href="#image-modal2">
-            <img src="assets/images/portfolio/ticketing.jpg" alt="" />
+            <img src="assets/images/portfolio/dang.png" alt="" />
 
             <div class="itemHover"></div>
-            <h4>Public Ticketing Platform (NDA)</h4>
-            <h6>Front-end</h6>
+            <h4>Dang That's Delicious</h4>
+            <h6>Full Stack</h6>
           </a>
 
           <div id="image-modal2" class="mfp-hide modal-box">
-            <img src="assets/images/portfolio/ticketing.jpg" alt="" />
+            <img src="assets/images/portfolio/dang.png" alt="" />
             <div class="modal-box-content">
-              <h4>Public Ticketing Platform</h4>
+              <h4>Dang That's Delicious</h4>
+              <h5>June 2017</h5>
               <p>
-                Our team built a public ticketing platform using Scala and the
-                Play Framework, Where I used LESS, CoffeeScript, and a
-                custom-built responsive grid system.
+                a full stack restaurant application which users can search, geolocate, review and curate their favourite restaurants from around the world.
+
+                The application has three main models — Users, Stores and Reviews — all of which are relational. It is designed to hit upon many of today's application needs such as user authentication, database storage, Ajax REST API, file upload and image resizing.
               </p>
-              <h5><a class="portfolio_links" href="#">Coming Soon</a></h5>
+              <h5><a class="portfolio_links" href="https://dang-thats-delicious-mbotes.herokuapp.com/">www.dang-thats-delicious-mbotes.herokuapp.com</a></h5>
             </div>
           </div>
         </div>
@@ -512,13 +531,14 @@
 
             <div class="itemHover"></div>
             <h4>Random Quote Generator</h4>
-            <h6>Full Stack</h6>
+            <h6>Front-end</h6>
           </a>
 
           <div id="image-modal3" class="mfp-hide modal-box">
             <img src="assets/images/portfolio/quote.png" alt="" />
             <div class="modal-box-content">
               <h4>Random Quote Generator</h4>
+              <h5>August 2015</h5>
               <p>
                 In this project, I followed a tutorial that helps you make a
                 random quote generator that you can post your favorite posts
@@ -532,7 +552,7 @@
           </div>
         </div>
 
-        <div class="grid-item no-pad-grid item-five work">
+        <div class="grid-item item-five work">
           <a class="image-modal" href="#image-modal4">
             <img src="assets/images/portfolio/portal.jpg" alt="" />
 
@@ -545,6 +565,7 @@
             <img src="assets/images/portfolio/portal.jpg" alt="" />
             <div class="modal-box-content">
               <h4>Building</h4>
+              <h5>August 2015</h5>
               <p>
                 Our team built a custom data reporting portal using Scala and
                 the Play Framework, Where I used LESS, CoffeeScript and
@@ -744,8 +765,10 @@
   <script>
     new WOW().init();
   </script>
+
+  <!-- VANTA Package -->
   <script src="assets/js/three.r92.min.js"></script>
-  <!-- <script src="assets/js/vanta.net.min.js"></script>
+  <script src="assets/js/vanta.net.min.js"></script>
   <script>
     VANTA.NET({
       el: "#sectionIntro",
@@ -754,9 +777,9 @@
       points: 7.0,
       spacing: 28.0
     });
-  </script> -->
+  </script>
 
-<script src="assets/js/vanta.birds.min.js"></script>
+<!-- <script src="assets/js/vanta.birds.min.js"></script>
 <script>
 VANTA.BIRDS({
   el: "#sectionIntro",
@@ -767,12 +790,12 @@ VANTA.BIRDS({
   wingSpan: 40.00,
   speedLimit: 3.00,
   separation: 100.00,
-  alignment: 1.00,
+  alignment: 40.00,
   cohesion: 100.00,
   quantity: 3.00,
   backgroundAlpha: 1
 })
-</script>
+</script> -->
 
   <script>
     $(window).load(function () {

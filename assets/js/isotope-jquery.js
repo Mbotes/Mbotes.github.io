@@ -362,7 +362,7 @@ function wheel(event) {
         deltaY *= options.stepSize / 120;
     }
     
-    scrollArray(overflowing, -deltaX, -deltaY);
+    // scrollArray(overflowing, -deltaX, -deltaY);
     event.preventDefault();
 }
 
@@ -433,7 +433,7 @@ function keydown(event) {
             return true; // a key we don't care about
     }
 
-    scrollArray(elem, x, y);
+    // scrollArray(elem, x, y);
     event.preventDefault();
 }
 
@@ -587,7 +587,7 @@ var isMouseWheelSupported = 'onmousewheel' in document;
 
 if (isMouseWheelSupported && isChrome) {
   addEvent("mousedown", mousedown);
-  addEvent("mousewheel", wheel);
+//   addEvent("mousewheel", wheel);
   addEvent("load", init);
 };
 
