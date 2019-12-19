@@ -644,12 +644,11 @@ a {
   margin-bottom: 0px;
 }
 .journal-text {
-  padding: 84px 0px 84px 40px;
+  padding: 50px;
   cursor: pointer;
 }
 .journal-right {
   text-align: right;
-  padding: 84px 40px 84px 0px;
 }
 .journal-text h1 {
   font-family: "Poppins", sans-serif;
