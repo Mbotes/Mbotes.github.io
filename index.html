@@ -1,1376 +1,1732 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
-  <meta charset="utf-8" />
+    <!-- Unfurling Meta Tags -->
+    <meta property="og:title" content="Michael Botes" />
+    <meta property="og:site_name" content="mbotes.github.io" />
+    <meta
+      property="og:description"
+      content="My name is Michael Botes. I'm a passionate Front-end Engineer and Cloud Enthusiast
+  based in Johannesburg, South Africa."
+    />
+    <meta
+      property="og:image"
+      content="https://instagram.fjnb10-1.fna.fbcdn.net/v/t51.2885-19/s150x150/40791558_267657970743561_9137823821691092992_n.jpg?_nc_ht=instagram.fjnb10-1.fna.fbcdn.net&_nc_ohc=kLvQvaP_rAEAX9Lc2Op&oh=d02c228d11b8a8d1a2b94d60a3a0d444&oe=5E79A4F2"
+    />
 
-  <!-- Unfurling Meta Tags -->
-  <meta property="og:title" content="Michael Botes" />
-  <meta property="og:site_name" content="mbotes.github.io" />
-  <meta property="og:description" content="My name is Michael Botes. I'm a passionate Front-end Engineer and Cloud Enthusiast
-  based in Johannesburg, South Africa." />
-  <meta property="og:image"
-    content="https://instagram.fjnb10-1.fna.fbcdn.net/v/t51.2885-19/s150x150/40791558_267657970743561_9137823821691092992_n.jpg?_nc_ht=instagram.fjnb10-1.fna.fbcdn.net&_nc_ohc=kLvQvaP_rAEAX9Lc2Op&oh=d02c228d11b8a8d1a2b94d60a3a0d444&oe=5E79A4F2" />
-
-  <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="My name is Michael Botes. I'm a passionate Front-end Engineer and Cloud Enthusiast
-  based in Johannesburg, South Africa." />
-  <meta name="author" content="Michael Botes" />
-  <!-- Page title
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="My name is Michael Botes. I'm a passionate Front-end Engineer and Cloud Enthusiast
+  based in Johannesburg, South Africa."
+    />
+    <meta name="author" content="Michael Botes" />
+    <!-- Page title
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <title>Michael Botes Portfolio</title>
+    <title>Michael Botes Portfolio</title>
 
-  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic" rel="stylesheet"
-    type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-  <!-- CSS
+    <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="assets/css/bootstrap.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/animate.css" />
-  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-  <!-- Icons
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- Icons
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="assets/icons/Linea/styles.css" />
-  <link rel="stylesheet" href="assets/icons/Elegant/style.css" />
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Devicons -->
-  <!-- <link rel="stylesheet"
+    <link rel="stylesheet" href="assets/icons/Linea/styles.css" />
+    <link rel="stylesheet" href="assets/icons/Elegant/style.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- Devicons -->
+    <!-- <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" /> -->
-  <script src="assets/js/modernizr.js"></script>
-</head>
+    <script src="assets/js/modernizr.js"></script>
+  </head>
 
-<!-- Body Start
+  <!-- Body Start
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<body>
-  <!-- Loader
+  <body>
+    <!-- Loader
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div id="loader">
-    <div class="spinner">
-      <div class="double-bounce1"></div>
-      <div class="double-bounce2"></div>
-    </div>
-    <h3 class="title-load">Loading...</h3>
-  </div>
-
-  <!-- Header Bar
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <header id="headerBar" class="headerTop">
-    <div class="container-fluid">
-      <!--Header logo on the left side-->
-
-      <div class="col-md-4 col-sm-1 col-xs-4 headerLeft">
-        <a href="index.html">
-          <img src="assets/images/site-logo2.png" alt="" />
-        </a>
+    <div id="loader">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
       </div>
+      <h3 class="title-load">Loading...</h3>
+    </div>
 
-      <!--Header right side with left-aligned menu-->
+    <!-- Header Bar
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <header id="headerBar" class="headerTop">
+      <div class="container-fluid">
+        <!--Header logo on the left side-->
 
-      <div class="col-md-8 col-sm-11 col-xs-8 headerRight">
-        <div class="header-right">
-          <!--Navigation-->
-          <nav class="navigation">
-            <div class="navbar-header">
-              <span class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <i class="fa fa-bars"></i>
-              </span>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="navbar navbar-right">
-                <li><a href="#sectionIntro" class="easing">Home</a></li>
-                <li><a href="#sectionAbout" class="easing">About</a></li>
-                <li><a href="#sectionResume" class="easing">Resume</a></li>
-                <li><a href="#sectionClients" class="easing">Tech</a></li>
-                <li>
-                  <a href="#sectionPortfolio" class="easing">Projects</a>
-                </li>
-                <li><a href="#sectionJournal" class="easing">Articles</a></li>
-                <li><a href="#sectionContact" class="easing">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
-          <!--END Navigation-->
+        <div class="col-md-4 col-sm-1 col-xs-4 headerLeft">
+          <a href="index.html">
+            <img src="assets/images/site-logo2.png" alt="" />
+          </a>
         </div>
-      </div>
-      <!--END Header right side-->
-    </div>
-    <!--END container-->
-  </header>
-  <!--END Header bar-->
 
-  <!-- section Intro
+        <!--Header right side with left-aligned menu-->
+
+        <div class="col-md-8 col-sm-11 col-xs-8 headerRight">
+          <div class="header-right">
+            <!--Navigation-->
+            <nav class="navigation">
+              <div class="navbar-header">
+                <span
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                >
+                  <i class="fa fa-bars"></i>
+                </span>
+              </div>
+
+              <div
+                class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="navbar navbar-right">
+                  <li><a href="#sectionIntro" class="easing">Home</a></li>
+                  <li><a href="#sectionAbout" class="easing">About</a></li>
+                  <li><a href="#sectionResume" class="easing">Resume</a></li>
+                  <li><a href="#sectionClients" class="easing">Tech</a></li>
+                  <li>
+                    <a href="#sectionPortfolio" class="easing">Projects</a>
+                  </li>
+                  <li><a href="#sectionJournal" class="easing">Articles</a></li>
+                  <li><a href="#sectionContact" class="easing">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!--END Navigation-->
+          </div>
+        </div>
+        <!--END Header right side-->
+      </div>
+      <!--END container-->
+    </header>
+    <!--END Header bar-->
+
+    <!-- section Intro
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <a href="#sectionAbout" class="easing">
-    <section id="sectionIntro" class="parallax">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="container-fluid">
-          <div class="textIntro">
-            <div class="hi">
-              <h1>Michael Botes</h1>
-              <span>Team Leader, Frontend Engineer, Cloud Enthusiast.</span><br />
-              <!-- <a href="#sectionAbout" class="easing">
+    <a href="#sectionAbout" class="easing">
+      <section id="sectionIntro" class="parallax">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="container-fluid">
+            <div class="textIntro">
+              <div class="hi">
+                <h1>Michael Botes</h1>
+                <span>Team Leader, Frontend Engineer, Cloud Enthusiast.</span
+                ><br />
+                <!-- <a href="#sectionAbout" class="easing">
                 <img src="assets/images/arrow.png" alt="" />
               </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </a>
+
+    <!-- section About
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <section id="sectionAbout">
+      <div class="container">
+        <div class="sectionTitle">
+          <h1>About Me</h1>
+          <span>introduction</span>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-xs-12 story">
+            <h2>Hi There 👋</h2>
+            <p>
+              My name is Michael Botes, but everyone calls me 'Boats', I'm a
+              <a
+                href="https://www.16personalities.com/intj-personality"
+                target="_blank"
+                >Architect (INTJ)</a
+              >
+              and
+              <a
+                href="https://www.mudamasters.com/en/personal-growth-personality/insights-discovery-part-1-4-colors"
+                target="_blank"
+                >Red/Yellow</a
+              >
+              personality type and what this means is that I'm an extremely
+              independant and driven Individual that loves being made
+              responsible for tasks and getting down to the bottom of really
+              complex issues and scenarios.
+              <br />
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 education">
+            <h2>Education</h2>
+            <p>
+              I studied at the
+              <a href="https://www.pearsoninstitute.ac.za/" target="_blank"
+                >Pearson Institute of Higher Education</a
+              >, which was formerly known as CTI College, where I received my
+              BSc in Computer Systems under the
+              <a href="https://www.hw.ac.uk/" target="_blank"
+                >Heriot Watt University</a
+              >
+              international program.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-xs-12 story">
+            <h2>Work</h2>
+            <p>
+              I am a bit of a curious badger, I started out as a front-end
+              developer and found myself being fascinated by just about every
+              aspect of web development, so I would end up scratching and
+              digging relentlessly at things until I slowly figured it out, this
+              has led to me having a pretty broad comfort zone but not really
+              having profoundly deep knowledge in a particular field, I
+              definitely have a higher proficiency in Front-end engineering and
+              have a big fascination for cloud technology, and thus have quite a
+              bit of skill in Google Cloud & Kubernetes but at the same time can
+              get my hands dirty in Azure DevOps for example.
+
+              <br />
+              Long story short is that give me a task and I will figure it out
+              and if I get stuck, I can find the right people to help me finish
+              it and learn along the way.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 education">
+            <h2>Non-work</h2>
+            <p>
+              I currently Live in Cape-Town, South Africa, after having lived in
+              Johannesburg for the last 3 years, with my wife and three cat
+              children. My hobbies include gaming, used to raid World of
+              Warcraft on Sunday and Monday nights, Reading fantasy books, and
+              playing jazz/blues guitar.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 skills">
+            <h5>Front-end development<span>90%</span></h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="90"
+                style="width: 90%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+
+            <h5>Full-stack Development<span>83%</span></h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="83"
+                style="width: 83%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+
+            <h5>Cloud Engineering<span>60%</span></h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="60"
+                style="width: 60%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+
+            <h5>Integration + Devops<span>40%</span></h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="40"
+                style="width: 40%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="row about-icons">
+          <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
+            <div class="icon icon-basic-laptop"></div>
+            <h6>Web Developer</h6>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
+            <div class="title-icon">
+              <h1>789+</h1>
+            </div>
+            <h6>Contributions</h6>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
+            <div class="icon icon-basic-smartphone"></div>
+            <h6>Mobile Conscious</h6>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
+            <div class="title-icon">
+              <h1>5</h1>
+            </div>
+            <h6>Projects Done</h6>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
+            <div class="icon icon-basic-cloud"></div>
+            <h6>Cloud Enthusiast</h6>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
+            <div class="title-icon">
+              <h1>&#8734;</h1>
+            </div>
+            <h6>Cups of Coffee</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section Resume
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <section id="sectionResume">
+      <div class="container">
+        <div class="sectionTitle">
+          <h1>My Past Experience</h1>
+          <span>Resume</span>
+        </div>
+
+        <!-- Troop Travel Fullstack Engineer -->
+        <div class="resume-line row">
+          <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+            <h3>5m</h3>
+            <p>2021 - 2022</p>
+          </div>
+
+          <div class="col-md-9 col-sm-8 col-xs-12 resume-right first-right">
+            <h3>Fullstack Engineer</h3>
+            <p>
+              Troop Travel, C. de Pablo Neruda, 28229 Villanueva del Pardillo,
+              Madrid, Spain
+            </p>
+            <a href="https://www.trooptravel.com/" target="_blank"
+              >Troop Travel</a
+            >
+          </div>
+        </div>
+
+        <!-- Vulcan Labs Senior Team Leader -->
+        <div class="resume-line row">
+          <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+            <h3>5m</h3>
+            <p>2021</p>
+          </div>
+
+          <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+            <h3>Senior Team Leader</h3>
+            <p>
+              Vulcan Labs, Urban Hub, Unit F6, Bo-Kaap, 142 Buitengracht Street,
+              Cape Town, 8001
+            </p>
+            <a href="https://vulcanlabs.com/" target="_blank">Vulcan Labs</a>
+          </div>
+        </div>
+
+        <!-- Dotmodus Front-end Team Leader -->
+        <div class="resume-line row">
+          <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+            <h3>11m</h3>
+            <p>2020 - 2021</p>
+          </div>
+
+          <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+            <h3>Front-End Team Leader</h3>
+            <p>
+              Dotmodus, 2 Venus Street, Melrose Estate, Johannesburg, South
+              Africa
+            </p>
+            <a href="https://www.dotmodus.com/" target="_blank">Dotmodus</a>
+          </div>
+        </div>
+
+        <!-- Harambee Software Engineer Team Leader -->
+        <div class="resume-line row">
+          <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+            <h3>2yr1m</h3>
+            <p>2018 - 2020</p>
+          </div>
+
+          <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+            <h3>Software Engineer Team Leader</h3>
+            <p>
+              Harambee Youth Employement Accelerator, 70 Fox St, Marshalltown,
+              Johannesburg, 2001
+            </p>
+            <a href="https://harambee.co.za/" target="_blank"
+              >Harambee Youth Employement Accelerator</a
+            >
+          </div>
+        </div>
+
+        <!-- Dotmodus Front-End Engineer -->
+        <div class="resume-line row">
+          <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+            <h3>9m</h3>
+            <p>2017 - 2018</p>
+          </div>
+
+          <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+            <h3>Front-end Engineer</h3>
+            <p>
+              Dotmodus, 2 Venus Street, Melrose Estate, Johannesburg, South
+              Africa
+            </p>
+            <a href="https://www.dotmodus.com/" target="_blank">Dotmodus</a>
+          </div>
+        </div>
+
+        <!-- Lightswitch Full-stack Developer -->
+        <div class="resume-line row">
+          <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+            <h3>3m</h3>
+            <p>2017</p>
+          </div>
+
+          <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+            <h3>Full-stack Developer</h3>
+            <p>
+              Lightswitch Solutions, The Launchsite, 176 Sir Lowry Road, Cape
+              Town, 7550, South Africa
+            </p>
+            <a href="https://lightswitch.solutions/" target="_blank"
+              >Lightswitch Solutions</a
+            >
+          </div>
+        </div>
+
+        <!-- Ourhood Front-end -->
+        <div class="resume-line row">
+          <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+            <h3>1yr3m</h3>
+            <p>2016 - 2017</p>
+          </div>
+
+          <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+            <h3>Front-end Developer</h3>
+            <p>
+              Ourhood, Unit 7, The Bureaux, 46 Hans Strydom Avenue, Foreshore,
+              Cape Town
+            </p>
+            <a href="https://ourhood.co.za/splash" target="_blank">OurHood</a>
+          </div>
+        </div>
+
+        <!-- Fullfacing Front-end -->
+        <div class="resume-line row">
+          <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+            <h3>8m</h3>
+            <p>2015 - 2016</p>
+          </div>
+
+          <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+            <h3>Front-end Developer</h3>
+            <p>
+              Fullfacing Pty Ltd Unit 2, Atlas Gardens Business Park, 29
+              Sycamore Crescent, Durbanville, Cape Town, 7550, South Africa,
+              www.fullfacing.com
+            </p>
+            <a href="https://www.fullfacing.com/" target="_blank">Fullfacing</a>
+          </div>
+        </div>
+
+        <!-- Fullfacing Intern -->
+        <div class="resume-line row">
+          <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+            <h3>6m</h3>
+            <p>2015</p>
+          </div>
+
+          <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+            <h3>Software Developer Intern</h3>
+            <p>
+              Fullfacing Pty Ltd Unit 2, Atlas Gardens Business Park, 29
+              Sycamore Crescent, Durbanville, Cape Town, 7550, South Africa,
+              www.fullfacing.com
+            </p>
+            <a href="https://www.fullfacing.com/" target="_blank">Fullfacing</a>
+          </div>
+        </div>
+
+        <div class="resume-line last-line row"></div>
+      </div>
+    </section>
+
+    <!-- section Clients
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <section id="sectionClients">
+      <div class="container">
+        <div class="sectionTitle">
+          <h1>Technologies</h1>
+          <span>I am comfortable with</span>
+        </div>
+
+        <div class="clients row">
+          <!-- Icon Line 1 -->
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://cloud.google.com/" target="_blank">
+              <div class="clients-bg">Google Cloud</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlecloud.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://aws.amazon.com/" target="_blank">
+              <div class="clients-bg">Amazon AWS</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazonaws.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
+            <a href="https://azure.microsoft.com/en-us/" target="_blank">
+              <div class="clients-bg">Microsoft Azure</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftazure.svg"
+              />
+            </a>
+          </div>
+
+          <!-- Icon Line 2 -->
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://www.javascript.com/" target="_blank">
+              <div class="clients-bg">Javascript</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/javascript.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a
+              href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
+              target="_blank"
+            >
+              <div class="clients-bg">TypeScript</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/typescript.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+            >
+              <div class="clients-bg">C#</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/csharp.svg"
+              />
+            </a>
+          </div>
+
+          <!-- Icon Line 3 -->
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://vuejs.org/" target="_blank">
+              <div class="clients-bg">Vue</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vue-dot-js.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://reactjs.org/" target="_blank">
+              <div class="clients-bg">React</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/react.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
+            <a href="https://dotnet.microsoft.com/" target="_blank">
+              <div class="clients-bg">.Net Core</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dot-net.svg"
+              />
+            </a>
+          </div>
+          <!-- Icon Line 4 -->
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://github.com/" target="_blank">
+              <div class="clients-bg">Github</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://about.gitlab.com/" target="_blank">
+              <div class="clients-bg">gitlab</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitlab.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
+            <a
+              href="https://azure.microsoft.com/en-us/services/devops/"
+              target="_blank"
+            >
+              <div class="clients-bg">Azure DevOps</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/azuredevops.svg"
+              />
+            </a>
+          </div>
+
+          <!-- Icon Line 5 -->
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://www.mysql.com/" target="_blank">
+              <div class="clients-bg">Mysql</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mysql.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://graphql.org/" target="_blank">
+              <div class="clients-bg">Graphql</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/graphql.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
+            <a href="https://www.mongodb.com/" target="_blank">
+              <div class="clients-bg">Mongo DB</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mongodb.svg"
+              />
+            </a>
+          </div>
+          <!-- Icon Line 6 -->
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://redux.js.org/" target="_blank">
+              <div class="clients-bg">Redux Saga</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/reduxsaga.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
+            <a href="https://www.apollographql.com/" target="_blank">
+              <div class="clients-bg">Apollo Graphql</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/apollographql.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
+            <a href="https://mapsplatform.google.com/" target="_blank">
+              <div class="clients-bg">Google Maps</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlemaps.svg"
+              />
+            </a>
+          </div>
+          <!-- Icon  Line 7-->
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-bot">
+            <a href="https://reactnative.dev/" target="_blank">
+              <div class="clients-bg">React Native</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/react.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-bot">
+            <a href="https://www.gatsbyjs.com/" target="_blank">
+              <div class="clients-bg">Gatsby</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gatsby.svg"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 clients-box-bot last-client">
+            <a href="https://expressjs.com/" target="_blank">
+              <div class="clients-bg">Express</div>
+              <img
+                height="32"
+                width="32"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/express.svg"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section Portfolio
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section id="sectionPortfolio">
+      <!--GRID ITEMS-->
+
+      <!--GRID START-->
+
+      <div class="container">
+        <div class="sectionTitle">
+          <h1>Projects</h1>
+
+          <ul class="filters filters-group">
+            <li class="filter is-checked" data-filter="*">All</li>
+            <li class="filter" data-filter=".work">Work</li>
+            <li class="filter" data-filter=".pers">Personal</li>
+          </ul>
+        </div>
+
+        <div id="isotopeGrid" class="mGrid row">
+          <div class="gutter-sizer"></div>
+
+          <!-- SCU-B Chatbot -->
+          <div class="grid-item item-five work fs">
+            <a class="image-modal" href="#image-modal-scub">
+              <img src="assets/images/projects/scub.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>SCUB Chatbot</h4>
+              <h6>Front-End</h6>
+            </a>
+
+            <div id="image-modal-scub" class="mfp-hide modal-box">
+              <img src="assets/images/projects/scub.png" alt="" />
+              <div class="modal-box-content">
+                <h4>Dotmodus</h4>
+                <h5>January 2021</h5>
+                <p>
+                  I delivered a "first-of-it's-kind" in South Africa, mobile
+                  responsive counseling chatbot that uses Machine learning to
+                  learn from students behavior and responses that I designed and
+                  implemented as a bespoke UI which is used in production with
+                  over 30'000 students for the University of Pretoria, I was
+                  involved from the client requirements gathering, architecting
+                  to analysis and delivered the client side project which was
+                  written with the following technologies: React with Hooks and
+                  Context API with RecoilJS for Auth management, Django Rest
+                  Framework, Google Cloud Storage, DialogFlow, App Engine,
+                  Kubernetes Engine
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://www.up.ac.za/news/post_2958947--up-launches-scu-b-student-counselling-chatbot-to-boost-student-well-being"
+                    target="_blank"
+                  >
+                    www.up.ac.za</a
+                  >
+                </h5>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://www.dotmodus.com/za/customers/university-of-pretoria/"
+                    target="_blank"
+                  >
+                    www.dotmodus.com/za/customers/university-of-pretoria/</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Harambee -->
+          <div class="grid-item item-five work fs">
+            <a class="image-modal" href="#image-modal-harambee">
+              <img src="assets/images/projects/harambee.mobi.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>Harambee</h4>
+              <h6>Full-stack</h6>
+            </a>
+
+            <div id="image-modal-harambee" class="mfp-hide modal-box">
+              <img src="assets/images/projects/harambee.mobi.png" alt="" />
+              <div class="modal-box-content">
+                <h4>Harambee</h4>
+                <h5>December 2019</h5>
+                <p>
+                  I am happily serving as one of the Technical Team Leads on the
+                  strategic remediation project. On the day-to-day, I am one of
+                  the few who are responsible for the overview of our GCP
+                  landscape for our PROD and UAT environments. this has me
+                  monitoring performance, downtime events, etc. as well as the
+                  bringing up and down of environments and being the first
+                  respondent on prod issues/downtime. I am also involved with
+                  our front-end Scottish team, namely CaseBlocks, in managing a
+                  small local team as well as liaising with their teams in
+                  resolving issues on our Jira tickets for platform enhancements
+                  and remediations. Going forward I am taking a step back into
+                  the C# and .net world helping with services and Front-end
+                  using MVC and JQuery. All while planning with the other Team
+                  leads our new architecture going forward with the future of
+                  Harambee.
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://sayouth.mobi/Home/Index/EN"
+                    target="_blank"
+                  >
+                    www.sayouth.mobi</a
+                  >
+                </h5>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://harambee.co.za/"
+                    target="_blank"
+                  >
+                    www.harambee.co.za/</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio -->
+          <div class="grid-item item-five pers fs">
+            <a class="image-modal" href="#image-modal-portfolio">
+              <img src="assets/images/projects/portfolio.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>Portfolio</h4>
+              <h6>Front-end</h6>
+            </a>
+
+            <div id="image-modal-portfolio" class="mfp-hide modal-box">
+              <img src="assets/images/projects/portfolio.png" alt="" />
+              <div class="modal-box-content">
+                <h4>Portfolio</h4>
+                <h5>December 2019</h5>
+                <p>
+                  For my portfolio I wanted to use a modern design with colors
+                  and style matching my Curriculum Vitae, I also took the
+                  opportunity to see how far I could take simple html, css and
+                  javascript and deploy it on Github pages, use a 3D rendering
+                  library to create the daily alternating birds and geometric
+                  shape landing page and incorporate Google Maps and Analytics.
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://mbotes.github.io/"
+                    target="_blank"
+                  >
+                    www.mbotes.github.io</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Covid Tracker -->
+          <div class="grid-item item-five pers">
+            <a class="image-modal" href="#image-modal-covid">
+              <img src="assets/images/projects/covidmap.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>Covid</h4>
+              <h6>Front-end</h6>
+            </a>
+
+            <div id="image-modal-covid" class="mfp-hide modal-box">
+              <img src="assets/images/projects/covidsearch.png" alt="" />
+              <div class="modal-box-content">
+                <h4>Covid Data Visualizer</h4>
+                <h5>Sep 2020</h5>
+                <p>
+                  A little side project built in Vue 2 and vuex, to visualize
+                  data from a free open source api endpoint, this also uses
+                  charts and maps.
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://github.com/Mbotes/Covid-Tracker-Vue"
+                    target="_blank"
+                    >www.Github.com/mbotes</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- News App -->
+          <div class="grid-item item-five pers">
+            <a class="image-modal" href="#image-modal-news">
+              <img src="assets/images/projects/newsagent.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>News App</h4>
+              <h6>Front-end</h6>
+            </a>
+
+            <div id="image-modal-news" class="mfp-hide modal-box">
+              <img src="assets/images/projects/newsagent.png" alt="" />
+              <div class="modal-box-content">
+                <h4>News App</h4>
+                <h5>Aug 2020</h5>
+                <p>
+                  A little side project built in Vue 2 to fetch and manipulate
+                  results from an open source News Api, I also implemented a
+                  infinite scroll that polls the endpoint for next batch of
+                  results etc.
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://github.com/Mbotes/news-app-vue"
+                    target="_blank"
+                    >www.Github.com/mbotes</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Catch of the day -->
+          <div class="grid-item item-five pers">
+            <a class="image-modal" href="#image-modal-catch">
+              <img src="assets/images/projects/beginnerreact.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>Wes Bos</h4>
+              <h6>Course</h6>
+            </a>
+
+            <div id="image-modal-catch" class="mfp-hide modal-box">
+              <img src="assets/images/projects/beginnerreact.png" alt="" />
+              <div class="modal-box-content">
+                <h4>News App</h4>
+                <h5>Aug 2020</h5>
+                <p>
+                  React for beginners course by Wes Bos, a simple react client
+                  side app, which uses react router and LocalStorage with real
+                  time data from firebase.
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://github.com/Mbotes/catch-of-the-day"
+                    target="_blank"
+                    >www.Github.com/mbotes</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- SATaxi -->
+          <div class="grid-item item-five work fs">
+            <a class="image-modal" href="#image-modal-sataxi">
+              <img src="assets/images/projects/sataxi.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>SATaxi</h4>
+              <h6>Front-End</h6>
+            </a>
+
+            <div id="image-modal-sataxi" class="mfp-hide modal-box">
+              <img src="assets/images/projects/sataxi.png" alt="" />
+              <div class="modal-box-content">
+                <h4>Harambee</h4>
+                <h5>December 2019</h5>
+                <p>
+                  Joined DotModus as a front-end developer, as the sole
+                  front-end developer on the team I built a front-end,
+                  client-focused tool that allowed the company to track vehicles
+                  in the last hour on a map, and stored all metadata on each
+                  vehicle which was presented through a dashboard, there which
+                  we presented stats that were useful to the company. this
+                  system was built from the ground up using Vue.js, Vuex,
+                  Graphql, Vue-apollo, Solr, Django Rest Framework and Google
+                  Cloud Platform.
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://www.dotmodus.com/za/customers/sa-taxi"
+                    target="_blank"
+                  >
+                    www.dotmodus.com/za/customers/sa-taxi</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coins-x-change -->
+          <div class="grid-item item-five pers">
+            <a class="image-modal" href="#image-modal-coins">
+              <img src="assets/images/projects/coinsxchange.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>Coins-x-change</h4>
+              <h6>Front-end</h6>
+            </a>
+
+            <div id="image-modal-coins" class="mfp-hide modal-box">
+              <img src="assets/images/projects/coinsxchange.png" alt="" />
+              <div class="modal-box-content">
+                <h4>Coins-x-change</h4>
+                <h5>August 2017</h5>
+                <p>
+                  Crypto currency exchange listings page created with Vue.js and
+                  uses an open source crypto api (www.coingecko.com).
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://github.com/Mbotes/coinx"
+                    target="_blank"
+                  >
+                    www.Github.com/mbotes</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ourhood -->
+          <div class="grid-item item-five work fs">
+            <a class="image-modal" href="#image-modal-ourhood">
+              <img src="assets/images/projects/ourhood.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>OurHood</h4>
+              <h6>Full-stack</h6>
+            </a>
+
+            <div id="image-modal-ourhood" class="mfp-hide modal-box">
+              <img src="assets/images/projects/ourhood.png" alt="" />
+              <div class="modal-box-content">
+                <h4>OurHood</h4>
+                <h5>December 2019</h5>
+                <p>
+                  OurHood is a private online platform where you can connect
+                  with your neighbours and community. Finally an easy way to
+                  share information including crime info, recommendations and
+                  tradesmen referrals, lost pets, local services and general
+                  news. OurHood is hosted on AWS using RDS for MariaDB, ECS
+                  storage and EC2 Instances, the Backend is Node JS with Express
+                  and the Frontend is Jquery, LESS, Handlebars and Bootstrap.
+                  The Mobile App was built using React Native and is a complete
+                  port of functionality from the website. *Unfortunately the
+                  site and links were shutdown in 2021*
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://ourhood.co.za/splash"
+                    target="_blank"
+                  >
+                    www.ourhood.co.za</a
+                  >
+                </h5>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://play.google.com/store/apps/details?id=za.co.fullstack.ourhood.mobile.android&hl=en"
+                    target="_blank"
+                  >
+                    Android</a
+                  >
+                </h5>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://apps.apple.com/za/app/ourhood/id939195973"
+                    target="_blank"
+                  >
+                    iOS</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dang that's Delicious -->
+          <div class="grid-item item-five pers">
+            <a class="image-modal" href="#image-modal-dang">
+              <img src="assets/images/projects/dang.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>Dang That's Delicious</h4>
+              <h6>Course</h6>
+            </a>
+
+            <div id="image-modal-dang" class="mfp-hide modal-box">
+              <img src="assets/images/projects/dang.png" alt="" />
+              <div class="modal-box-content">
+                <h4>Dang That's Delicious</h4>
+                <h5>June 2017</h5>
+                <p>
+                  a full stack restaurant application which users can search,
+                  geolocate, review and curate their favourite restaurants from
+                  around the world. The application has three main models —
+                  Users, Stores and Reviews — all of which are relational. It is
+                  designed to hit upon many of today's application needs such as
+                  user authentication, database storage, Ajax REST API, file
+                  upload and image resizing.
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://dang-thats-delicious-mbotes.herokuapp.com/"
+                    target="_blank"
+                    >www.dang-thats-delicious-mbotes.herokuapp.com</a
+                  >
+                </h5>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://github.com/Mbotes/dang-thats-delicious"
+                    target="_blank"
+                    >www.github.com/mbotes</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item item-five pers fs">
+            <a class="image-modal" href="#image-modal-quote">
+              <img src="assets/images/projects/quote.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>Random Quote Generator</h4>
+              <h6>Front-end</h6>
+            </a>
+
+            <div id="image-modal-quote" class="mfp-hide modal-box">
+              <img src="assets/images/projects/quote.png" alt="" />
+              <div class="modal-box-content">
+                <h4>Random Quote Generator</h4>
+                <h5>August 2015</h5>
+                <p>
+                  In this project, I followed a tutorial that helps you make a
+                  random quote generator that you can post your favorite posts
+                  to Twitter.
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://codepen.io/michaelFF/full/bpMQap"
+                    target="_blank"
+                    >www.codepen.io/michaelFF.com</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item item-five pers fs">
+            <a class="image-modal" href="#image-modal5">
+              <img src="assets/images/projects/tribute.png" alt="" />
+
+              <div class="itemHover"></div>
+              <h4>Basic Tribute Page</h4>
+              <h6>Front-end</h6>
+            </a>
+
+            <div id="image-modal5" class="mfp-hide modal-box">
+              <img
+                src="assets/images/projects/tribute.png"
+                alt="assets/images/2.jpg"
+              />
+              <div class="modal-box-content">
+                <h4>Basic Tribute Page</h4>
+                <h5>August 2015</h5>
+                <p>
+                  My very first personal project, built while learning how to
+                  use the bootstrap framework and code pen.
+                </p>
+                <h5>
+                  <a
+                    class="portfolio_links"
+                    href="https://codepen.io/michaelFF/full/ZQZxdB"
+                    target="_blank"
+                    >www.codepen.io/michaelFF.com</a
+                  >
+                </h5>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  </a>
 
-  <!-- section About
+    <!-- section Journal
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <section id="sectionAbout">
-    <div class="container">
-      <div class="sectionTitle">
-        <h1>About Me</h1>
-        <span>introduction</span>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 col-sm-12 col-xs-12 story">
-          <h2>Hi There 👋</h2>
-          <p>
-            My name is Michael Botes, but everyone calls me 'Boats', I'm a
-            <a href="https://www.16personalities.com/intj-personality" target="_blank">Architect (INTJ)</a> and
-            <a href="https://www.mudamasters.com/en/personal-growth-personality/insights-discovery-part-1-4-colors"
-              target="_blank">Red/Yellow</a> personality type and what this means is that I'm an extremely independant
-            and driven Individual that loves being made responsible for tasks and getting down to the bottom of really
-            complex issues and scenarios.
-            <br />
-          </p>
+    <section id="sectionJournal">
+      <div class="container">
+        <div class="sectionTitle">
+          <h1>Articles</h1>
+          <span>From work accomplishments</span>
         </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 education">
-          <h2>Education</h2>
-          <p>
-            I studied at the
-            <a href="https://www.pearsoninstitute.ac.za/" target="_blank">Pearson Institute of Higher Education</a>,
-            which was formerly
-            known as CTI College, where I received my
-            BSc in Computer Systems under the
-            <a href="https://www.hw.ac.uk/" target="_blank">Heriot Watt University</a>
-            international program.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-12 col-xs-12 story">
-          <h2>Work</h2>
-          <p>
-            I am a bit of a curious badger, I started out as a front-end developer and found myself being fascinated by
-            just about every aspect of web development, so I would end up scratching and digging relentlessly at things
-            until I slowly figured it out, this has led to me having a pretty broad comfort zone but not really having
-            profoundly deep knowledge in a particular field, I definitely have a higher proficiency in Front-end
-            engineering and have a big fascination for cloud technology, and thus have quite a bit of skill in Google
-            Cloud & Kubernetes but at the same time can get my hands dirty in Azure DevOps for example.
 
-            <br />
-            Long story short is that give me a task and I will figure it out and if I get stuck, I can find the right
-            people to help me finish it and learn along the way.
-          </p>
-        </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 education">
-          <h2>Non-work</h2>
-          <p>
-            I currently Live in Cape-Town, South Africa, after having lived in Johannesburg for the last 3 years, with
-            my wife and three cat children. My hobbies include gaming, used to raid World of Warcraft on Sunday and
-            Monday nights, Reading fantasy books, and playing jazz/blues guitar.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 skills">
-          <h5>Front-end development<span>90%</span></h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="90" style="width:90%;" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-
-          <h5>Full-stack Development<span>83%</span></h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="83" style="width:83%;" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-
-          <h5>Cloud Engineering<span>60%</span></h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" style="width:60%;" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-
-          <h5>Integration + Devops<span>40%</span></h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="40" style="width:40%;" aria-valuemin="0"
-              aria-valuemax="100"></div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
+            <a
+              href="https://www.dotmodus.com/za/customers/sa-taxi"
+              target="_blank"
+            >
+              <div class="journal-text">
+                <div class="category">Chatbot</div>
+                <h1>
+                  Keeping 15 million journeys running smoothly with Google Cloud
+                  Platform
+                </h1>
+                <h2>Posted 15 july 2021</h2>
+              </div>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="row about-icons">
-        <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
-          <div class="icon icon-basic-laptop"></div>
-          <h6>Web Developer</h6>
-        </div>
 
-        <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
-          <div class="title-icon">
-            <h1>789+</h1>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
+            <a
+              href="https://www.dotmodus.com/za/customers/university-of-pretoria/"
+              target="_blank"
+            >
+              <div class="journal-text">
+                <div class="category category-left">Google Cloud</div>
+                <div class="journal-right">
+                  <h1>
+                    Chatbot Boosts Student Wellbeing at University of Pretoria
+                  </h1>
+                  <h2>Posted 1 July 2021</h2>
+                </div>
+              </div>
+            </a>
           </div>
-          <h6>Contributions</h6>
         </div>
 
-        <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
-          <div class="icon icon-basic-smartphone"></div>
-          <h6>Mobile Conscious</h6>
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
-          <div class="title-icon">
-            <h1>5</h1>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
+            <a
+              href="https://diversitybyinclusion.com/dotmodus-chatbot-boosts-students-mental-health/"
+              target="_blank"
+            >
+              <div class="journal-text">
+                <div class="category">Chatbot</div>
+                <h1>DOTMODUS CHATBOT BOOSTS STUDENTS’ MENTAL HEALTH</h1>
+                <h2>Posted 15 June 2021</h2>
+              </div>
+            </a>
           </div>
-          <h6>Projects Done</h6>
         </div>
 
-        <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
-          <div class="icon icon-basic-cloud"></div>
-          <h6>Cloud Enthusiast</h6>
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
-          <div class="title-icon">
-            <h1>&#8734;</h1>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
+            <a
+              href="https://www.iol.co.za/education/universities/up-launches-counselling-chatbot-to-provide-students-with-mental-health-care-31e063ac-d90d-4ac3-9577-b5ab28b26c1a"
+              target="_blank"
+            >
+              <div class="journal-text">
+                <div class="category category-left">Google Cloud</div>
+                <div class="journal-right">
+                  <h1>
+                    UP launches counselling chatbot to provide students with
+                    mental health care
+                  </h1>
+                  <h2>Posted 1 April 2021</h2>
+                </div>
+              </div>
+            </a>
           </div>
-          <h6>Cups of Coffee</h6>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
+            <a
+              href="https://harambee.co.za/google-highlights-harambees-use-of-big-data-to-solve-youth-unemployment/"
+              target="_blank"
+            >
+              <div class="journal-text">
+                <div class="category">Harambee</div>
+                <h1>
+                  Google highlights our use of big data to solve youth
+                  unemployment
+                </h1>
+                <h2>Posted 27 June 2018</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
+            <a
+              href="https://cloud.google.com/customers/harambee/"
+              target="_blank"
+            >
+              <div class="journal-text">
+                <div class="category category-left">Google Cloud</div>
+                <div class="journal-right">
+                  <h1>
+                    Harambee Youth Employment Accelerator: Solving the youth
+                    unemployment challenge
+                  </h1>
+                  <h2>Posted 19 December 2019</h2>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- section Resume
+    <!-- section Contact
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <section id="sectionResume">
-    <div class="container">
-      <div class="sectionTitle">
-        <h1>My Past Experience</h1>
-        <span>Resume</span>
+    <section id="sectionContact">
+      <div class="container">
+        <div class="sectionTitle">
+          <h1>Get In Touch</h1>
+          <span>Contact</span>
+        </div>
+
+        <div class="contactForm row">
+          <div class="col-md-6 col-sm-12 col-xs-12 contactLeft">
+            <!--MESSAGE SENT SUCCESFULLY-->
+            <div id="message"></div>
+
+            <!--MAIN FORM-->
+
+            <form method="post" name="contactform" id="contactform">
+              <fieldset>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <input
+                    name="name"
+                    type="text"
+                    id="name"
+                    placeholder="Name* :"
+                    size="30"
+                    value=""
+                  />
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <input
+                    name="email"
+                    type="text"
+                    id="email"
+                    placeholder="E-mail* :"
+                    size="30"
+                    value=""
+                  />
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <input
+                    name="subject"
+                    type="text"
+                    id="subject"
+                    placeholder="Subject* :"
+                    size="30"
+                    value=""
+                  />
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <textarea
+                    name="comments"
+                    cols="40"
+                    rows="3"
+                    placeholder="Message* :"
+                    id="comments"
+                  ></textarea>
+                </div>
+
+                <input
+                  type="submit"
+                  class="submit"
+                  id="submit"
+                  value="Send message"
+                />
+              </fieldset>
+            </form>
+            <!--END Main form-->
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div id="map"></div>
+          </div>
+        </div>
+        <!-- END contact FORM-->
       </div>
+    </section>
 
-      <div class="resume-line row">
-        <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-          <h3>5m</h3>
-          <p>2021</p>
-        </div>
-
-        <div class="col-md-9 col-sm-8 col-xs-12 resume-right first-right">
-          <h3>Senior Team Leader </h3>
-          <p>
-            Vulcan Labs, Urban Hub, Unit F6, Bo-Kaap, 142 Buitengracht Street, Cape Town, 8001
-          </p>
-          <a href="https://vulcanlabs.com/" target="_blank">Vulcan Labs</a>
-        </div>
-      </div>
-
-      <div class="resume-line row">
-        <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-          <h3>11m</h3>
-          <p>2020 - 2021</p>
-        </div>
-
-        <div class="col-md-9 col-sm-8 col-xs-12 resume-right first-right">
-          <h3>Front-End Team Leader</h3>
-          <p>
-            Dotmodus, 2 Venus Street, Melrose Estate, Johannesburg, South Africa
-          </p>
-          <a href="https://www.dotmodus.com/" target="_blank">Dotmodus</a>
-        </div>
-      </div>
-
-      <div class="resume-line row">
-        <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-          <h3>2yr1m</h3>
-          <p>2018 - 2020</p>
-        </div>
-
-        <div class="col-md-9 col-sm-8 col-xs-12 resume-right first-right">
-          <h3>Software Engineer Team Leader</h3>
-          <p>
-            Harambee Youth Employement Accelerator, 70 Fox St, Marshalltown,
-            Johannesburg, 2001
-          </p>
-          <a href="https://harambee.co.za/" target="_blank">Harambee Youth Employement Accelerator</a>
-        </div>
-      </div>
-
-      <div class="resume-line row">
-        <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-          <h3>9m</h3>
-          <p>2017 - 2018</p>
-        </div>
-
-        <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
-          <h3>Front-end Engineer</h3>
-          <p>
-            Dotmodus, 2 Venus Street, Melrose Estate, Johannesburg, South
-            Africa
-          </p>
-          <a href="https://www.dotmodus.com/" target="_blank">Dotmodus</a>
-        </div>
-      </div>
-
-      <!-- Lightswitch Full-stack Developer -->
-      <div class="resume-line row">
-        <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-          <h3>3m</h3>
-          <p>2017</p>
-        </div>
-
-        <div class="col-md-9 col-sm-8 col-xs-12 resume-right ">
-          <h3>Full-stack Developer</h3>
-          <p>
-            Lightswitch Solutions, The Launchsite, 176 Sir Lowry Road, Cape
-            Town, 7550, South Africa
-          </p>
-          <a href="https://lightswitch.solutions/" target="_blank">Lightswitch Solutions</a>
-        </div>
-      </div>
-
-      <!-- Ourhood Front-end -->
-      <div class="resume-line row">
-        <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-          <h3>1yr3m</h3>
-          <p>2016 - 2017</p>
-        </div>
-
-        <div class="col-md-9 col-sm-8 col-xs-12 resume-right ">
-          <h3>Front-end Developer</h3>
-          <p>
-            Ourhood, Unit 7, The Bureaux, 46 Hans Strydom Avenue, Foreshore,
-            Cape Town
-          </p>
-          <a href="https://ourhood.co.za/splash" target="_blank">OurHood</a>
-        </div>
-      </div>
-
-      <!-- Fullfacing Front-end -->
-      <div class="resume-line row">
-        <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-          <h3>8m</h3>
-          <p>2015 - 2016</p>
-        </div>
-
-        <div class="col-md-9 col-sm-8 col-xs-12 resume-right ">
-          <h3>Front-end Developer</h3>
-          <p>
-            Fullfacing Pty Ltd Unit 2, Atlas Gardens Business Park, 29
-            Sycamore Crescent, Durbanville, Cape Town, 7550, South Africa,
-            www.fullfacing.com
-          </p>
-          <a href="https://www.fullfacing.com/" target="_blank">Fullfacing</a>
-        </div>
-      </div>
-
-      <!-- Fullfacing Intern -->
-      <div class="resume-line row">
-        <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-          <h3>6m</h3>
-          <p>2015</p>
-        </div>
-
-        <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
-          <h3>Software Developer Intern</h3>
-          <p>
-            Fullfacing Pty Ltd Unit 2, Atlas Gardens Business Park, 29
-            Sycamore Crescent, Durbanville, Cape Town, 7550, South Africa,
-            www.fullfacing.com
-          </p>
-          <a href="https://www.fullfacing.com/" target="_blank">Fullfacing</a>
-        </div>
-      </div>
-
-      <div class="resume-line last-line row"></div>
-    </div>
-  </section>
-
-  <!-- section Clients
+    <!-- Footer
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <section id="sectionClients">
-    <div class="container">
-      <div class="sectionTitle">
-        <h1>Technologies</h1>
-        <span>I am comfortable with</span>
-      </div>
-
-      <div class="clients row">
-        <!-- Icon Line 1 -->
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://cloud.google.com/" target="_blank">
-            <div class="clients-bg">Google Cloud</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlecloud.svg" />
-          </a>
+    <footer class="pFooter">
+      <div class="container-fluid">
+        <div class="col-md-6 col-sm-12 col-xs-12 fCopy">
+          Copyright © <span>Michael Botes</span> 2021 All rights reserved.
         </div>
 
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://aws.amazon.com/" target="_blank">
-            <div class="clients-bg">Amazon AWS</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazonaws.svg" />
+        <div class="col-md-6 col-sm-12 col-xs-12 fIcons">
+          <a
+            href="https://www.linkedin.com/in/michael-botes-95746bb5/"
+            target="_blank"
+          >
+            <img
+              height="24"
+              width="24"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg"
+            />
           </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
-          <a href="https://azure.microsoft.com/en-us/" target="_blank">
-            <div class="clients-bg">Microsoft Azure</div>
-            <img height="32" width="32"
-              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftazure.svg" />
+          <a href="https://www.instagram.com/michael_boats/" target="_blank">
+            <img
+              height="24"
+              width="24"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg"
+            />
           </a>
-        </div>
-
-        <!-- Icon Line 2 -->
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://www.javascript.com/" target="_blank">
-            <div class="clients-bg">Javascript</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/javascript.svg" />
+          <a href="https://github.com/Mbotes" target="_blank">
+            <img
+              height="24"
+              width="24"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
+            />
           </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target="_blank">
-            <div class="clients-bg">TypeScript</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/typescript.svg" />
+          <a href="https://medium.com/@michaelbotes" target="_blank">
+            <img
+              height="24"
+              width="24"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/medium.svg"
+            />
           </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-            <div class="clients-bg">C#</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/csharp.svg" />
-          </a>
-        </div>
-
-        <!-- Icon Line 3 -->
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://vuejs.org/" target="_blank">
-            <div class="clients-bg">Vue</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vue-dot-js.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://reactjs.org/" target="_blank">
-            <div class="clients-bg">React</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/react.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
-          <a href="https://dotnet.microsoft.com/" target="_blank">
-            <div class="clients-bg">.Net Core</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dot-net.svg" />
-          </a>
-        </div>
-        <!-- Icon Line 4 -->
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://github.com/" target="_blank">
-            <div class="clients-bg">Github</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://about.gitlab.com/" target="_blank">
-            <div class="clients-bg">gitlab</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitlab.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
-          <a href="https://azure.microsoft.com/en-us/services/devops/" target="_blank">
-            <div class="clients-bg">Azure DevOps</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/azuredevops.svg" />
-          </a>
-        </div>
-
-        <!-- Icon Line 5 -->
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://www.mysql.com/" target="_blank">
-            <div class="clients-bg">Mysql</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mysql.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://graphql.org/" target="_blank">
-            <div class="clients-bg">Graphql</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/graphql.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
-          <a href="https://www.mongodb.com/" target="_blank">
-            <div class="clients-bg">Mongo DB</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mongodb.svg" />
-          </a>
-        </div>
-        <!-- Icon Line 6 -->
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://redux.js.org/" target="_blank">
-            <div class="clients-bg">Redux Saga</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/reduxsaga.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top">
-          <a href="https://www.apollographql.com/" target="_blank">
-            <div class="clients-bg">Apollo Graphql</div>
-            <img height="32" width="32"
-              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/apollographql.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-top last-client">
-          <a href="https://mapsplatform.google.com/" target="_blank">
-            <div class="clients-bg">Google Maps</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlemaps.svg" />
-          </a>
-        </div>
-        <!-- Icon  Line 7-->
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-bot">
-          <a href="https://reactnative.dev/" target="_blank">
-            <div class="clients-bg">React Native</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/react.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-bot">
-          <a href="https://www.gatsbyjs.com/" target="_blank">
-            <div class="clients-bg">Gatsby</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gatsby.svg" />
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12 clients-box-bot last-client">
-          <a href="https://expressjs.com/" target="_blank">
-            <div class="clients-bg">Express</div>
-            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/express.svg" />
+          <a href="https://dev.to/mbotes" target="_blank">
+            <img
+              height="24"
+              width="24"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dev-dot-to.svg"
+            />
           </a>
         </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- section Portfolio
+    <!--  Javascripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <section id="sectionPortfolio">
-    <!--GRID ITEMS-->
-
-    <!--GRID START-->
-
-    <div class="container">
-      <div class="sectionTitle">
-        <h1>Projects</h1>
-
-        <ul class="filters filters-group">
-          <li class="filter is-checked" data-filter="*">All</li>
-          <li class="filter" data-filter=".work">Work</li>
-          <li class="filter" data-filter=".pers">Personal</li>
-        </ul>
-      </div>
-
-      <div id="isotopeGrid" class="mGrid row">
-        <div class="gutter-sizer"></div>
-
-        <!-- SCU-B Chatbot -->
-        <div class="grid-item  item-five work fs">
-          <a class="image-modal" href="#image-modal-scub">
-            <img src="assets/images/projects/scub.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>SCUB Chatbot</h4>
-            <h6>Front-End</h6>
-          </a>
-
-          <div id="image-modal-scub" class="mfp-hide modal-box">
-            <img src="assets/images/projects/scub.png" alt="" />
-            <div class="modal-box-content">
-              <h4>Dotmodus</h4>
-              <h5>January 2021</h5>
-              <p>
-
-                I delivered a "first-of-it's-kind" in South Africa, mobile responsive counseling chatbot that uses
-                Machine learning to learn from students behavior and responses that I designed and implemented as a
-                bespoke UI which is used in production with over 30'000 students for the University of Pretoria,
-                I was involved from the client requirements gathering, architecting to analysis and delivered the client
-                side project which was written with the following technologies: React with Hooks and Context API with
-                RecoilJS for Auth management, Django Rest Framework, Google Cloud Storage, DialogFlow, App Engine,
-                Kubernetes Engine
-              </p>
-              <h5>
-                <a class="portfolio_links"
-                  href="https://www.up.ac.za/news/post_2958947--up-launches-scu-b-student-counselling-chatbot-to-boost-student-well-being"
-                  target="_blank">
-                  www.up.ac.za</a>
-              </h5>
-              <h5>
-                <a class="portfolio_links" href="https://www.dotmodus.com/za/customers/university-of-pretoria/"
-                  target="_blank">
-                  www.dotmodus.com/za/customers/university-of-pretoria/</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <!-- Harambee -->
-        <div class="grid-item  item-five work fs">
-          <a class="image-modal" href="#image-modal-harambee">
-            <img src="assets/images/projects/harambee.mobi.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>Harambee</h4>
-            <h6>Full-stack</h6>
-          </a>
-
-          <div id="image-modal-harambee" class="mfp-hide modal-box">
-            <img src="assets/images/projects/harambee.mobi.png" alt="" />
-            <div class="modal-box-content">
-              <h4>Harambee</h4>
-              <h5>December 2019</h5>
-              <p>
-                I am happily serving as one of the Technical Team Leads on the strategic remediation project.
-
-                On the day-to-day, I am one of the few who are responsible for the overview of our GCP landscape for our
-                PROD and UAT environments. this has me monitoring performance, downtime events, etc. as well as the
-                bringing up and down of environments and being the first respondent on prod issues/downtime.
-
-                I am also involved with our front-end Scottish team, namely CaseBlocks, in managing a small local team
-                as well as liaising with their teams in resolving issues on our Jira tickets for platform enhancements
-                and remediations.
-
-                Going forward I am taking a step back into the C# and .net world helping with services and Front-end
-                using MVC and JQuery.
-
-                All while planning with the other Team leads our new architecture going forward with the future of
-                Harambee.
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://sayouth.mobi/Home/Index/EN" target="_blank">
-                  www.sayouth.mobi</a>
-              </h5>
-              <h5>
-                <a class="portfolio_links" href="https://harambee.co.za/" target="_blank">
-                  www.harambee.co.za/</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <!-- Portfolio -->
-        <div class="grid-item  item-five pers fs">
-          <a class="image-modal" href="#image-modal-portfolio">
-            <img src="assets/images/projects/portfolio.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>Portfolio</h4>
-            <h6>Front-end</h6>
-          </a>
-
-          <div id="image-modal-portfolio" class="mfp-hide modal-box">
-            <img src="assets/images/projects/portfolio.png" alt="" />
-            <div class="modal-box-content">
-              <h4>Portfolio</h4>
-              <h5>December 2019</h5>
-              <p>
-                For my portfolio I wanted to use a modern design with colors
-                and style matching my Curriculum Vitae, I also took the
-                opportunity to see how far I could take simple html, css and javascript and deploy it on Github pages,
-                use a 3D rendering library to create the daily alternating birds and geometric shape landing page and
-                incorporate Google Maps and Analytics.
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://mbotes.github.io/" target="_blank">
-                  www.mbotes.github.io</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <!-- Covid Tracker -->
-        <div class="grid-item item-five pers">
-          <a class="image-modal" href="#image-modal-covid">
-            <img src="assets/images/projects/covidmap.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>Covid</h4>
-            <h6>Front-end</h6>
-          </a>
-
-          <div id="image-modal-covid" class="mfp-hide modal-box">
-            <img src="assets/images/projects/covidsearch.png" alt="" />
-            <div class="modal-box-content">
-              <h4>Covid Data Visualizer</h4>
-              <h5>Sep 2020</h5>
-              <p>
-                A little side project built in Vue 2 and vuex, to visualize data from a free open source api endpoint,
-                this also uses charts and maps.
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://github.com/Mbotes/Covid-Tracker-Vue"
-                  target="_blank">www.Github.com/mbotes</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <!-- News App -->
-        <div class="grid-item item-five pers">
-          <a class="image-modal" href="#image-modal-news">
-            <img src="assets/images/projects/newsagent.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>News App</h4>
-            <h6>Front-end</h6>
-          </a>
-
-          <div id="image-modal-news" class="mfp-hide modal-box">
-            <img src="assets/images/projects/newsagent.png" alt="" />
-            <div class="modal-box-content">
-              <h4>News App</h4>
-              <h5>Aug 2020</h5>
-              <p>
-                A little side project built in Vue 2 to fetch and manipulate results from an open source News Api, I
-                also implemented a infinite scroll that polls the endpoint for next batch of results etc.
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://github.com/Mbotes/news-app-vue"
-                  target="_blank">www.Github.com/mbotes</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <!-- Catch of the day -->
-        <div class="grid-item item-five pers">
-          <a class="image-modal" href="#image-modal-catch">
-            <img src="assets/images/projects/beginnerreact.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>Wes Bos</h4>
-            <h6>Course</h6>
-          </a>
-
-          <div id="image-modal-catch" class="mfp-hide modal-box">
-            <img src="assets/images/projects/beginnerreact.png" alt="" />
-            <div class="modal-box-content">
-              <h4>News App</h4>
-              <h5>Aug 2020</h5>
-              <p>
-                React for beginners course by Wes Bos, a simple react client side app, which uses react router and
-                LocalStorage with real time data from firebase.
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://github.com/Mbotes/catch-of-the-day"
-                  target="_blank">www.Github.com/mbotes</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <!-- SATaxi -->
-        <div class="grid-item  item-five work fs">
-          <a class="image-modal" href="#image-modal-sataxi">
-            <img src="assets/images/projects/sataxi.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>SATaxi</h4>
-            <h6>Front-End</h6>
-          </a>
-
-          <div id="image-modal-sataxi" class="mfp-hide modal-box">
-            <img src="assets/images/projects/sataxi.png" alt="" />
-            <div class="modal-box-content">
-              <h4>Harambee</h4>
-              <h5>December 2019</h5>
-              <p>
-                Joined DotModus as a front-end developer, as the sole front-end developer on the team I built a
-                front-end, client-focused tool that allowed the company to track vehicles in the last hour on a map, and
-                stored all metadata on each vehicle which was presented through a dashboard, there which we presented
-                stats that were useful to the company.
-                this system was built from the ground up using Vue.js, Vuex, Graphql, Vue-apollo, Solr, Django Rest
-                Framework and Google Cloud
-                Platform.
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://www.dotmodus.com/za/customers/sa-taxi" target="_blank">
-                  www.dotmodus.com/za/customers/sa-taxi</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- Coins-x-change -->
-        <div class="grid-item item-five pers">
-          <a class="image-modal" href="#image-modal-coins">
-            <img src="assets/images/projects/coinsxchange.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>Coins-x-change</h4>
-            <h6>Front-end</h6>
-          </a>
-
-          <div id="image-modal-coins" class="mfp-hide modal-box">
-            <img src="assets/images/projects/coinsxchange.png" alt="" />
-            <div class="modal-box-content">
-              <h4>Coins-x-change</h4>
-              <h5>August 2017</h5>
-              <p>
-                Crypto currency exchange listings page created with Vue.js and uses an open source crypto api
-                (www.coingecko.com).
-              </p>
-              <h5><a class="portfolio_links" href="https://github.com/Mbotes/coinx" target="_blank">
-                  www.Github.com/mbotes</a></h5>
-            </div>
-          </div>
-        </div>
-
-        <!-- Ourhood -->
-        <div class="grid-item  item-five work fs">
-          <a class="image-modal" href="#image-modal-ourhood">
-            <img src="assets/images/projects/ourhood.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>OurHood</h4>
-            <h6>Full-stack</h6>
-          </a>
-
-          <div id="image-modal-ourhood" class="mfp-hide modal-box">
-            <img src="assets/images/projects/ourhood.png" alt="" />
-            <div class="modal-box-content">
-              <h4>OurHood</h4>
-              <h5>December 2019</h5>
-              <p>
-                OurHood is a private online platform where you can connect
-                with your neighbours and community. Finally an easy way to
-                share information including crime info, recommendations and
-                tradesmen referrals, lost pets, local services and general
-                news.
-
-                OurHood is hosted on AWS using RDS for MariaDB, ECS storage and EC2 Instances,
-                the Backend is Node JS with Express and the Frontend is Jquery, LESS, Handlebars and Bootstrap.
-
-                The Mobile App was built using React Native and is a complete port of functionality from the website.
-
-                *Unfortunately the site and links were shutdown in 2021*
-
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://ourhood.co.za/splash" target="_blank">
-                  www.ourhood.co.za</a>
-              </h5>
-              <h5>
-                <a class="portfolio_links"
-                  href="https://play.google.com/store/apps/details?id=za.co.fullstack.ourhood.mobile.android&hl=en"
-                  target="_blank">
-                  Android</a>
-              </h5>
-              <h5>
-                <a class="portfolio_links" href="https://apps.apple.com/za/app/ourhood/id939195973" target="_blank">
-                  iOS</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <!-- Dang that's Delicious -->
-        <div class="grid-item item-five pers">
-          <a class="image-modal" href="#image-modal-dang">
-            <img src="assets/images/projects/dang.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>Dang That's Delicious</h4>
-            <h6>Course</h6>
-          </a>
-
-          <div id="image-modal-dang" class="mfp-hide modal-box">
-            <img src="assets/images/projects/dang.png" alt="" />
-            <div class="modal-box-content">
-              <h4>Dang That's Delicious</h4>
-              <h5>June 2017</h5>
-              <p>
-                a full stack restaurant application which users can search,
-                geolocate, review and curate their favourite restaurants from
-                around the world. The application has three main models —
-                Users, Stores and Reviews — all of which are relational. It is
-                designed to hit upon many of today's application needs such as
-                user authentication, database storage, Ajax REST API, file
-                upload and image resizing.
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://dang-thats-delicious-mbotes.herokuapp.com/"
-                  target="_blank">www.dang-thats-delicious-mbotes.herokuapp.com</a>
-              </h5>
-              <h5>
-                <a class="portfolio_links" href="https://github.com/Mbotes/dang-thats-delicious"
-                  target="_blank">www.github.com/mbotes</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid-item item-five pers fs">
-          <a class="image-modal" href="#image-modal-quote">
-            <img src="assets/images/projects/quote.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>Random Quote Generator</h4>
-            <h6>Front-end</h6>
-          </a>
-
-          <div id="image-modal-quote" class="mfp-hide modal-box">
-            <img src="assets/images/projects/quote.png" alt="" />
-            <div class="modal-box-content">
-              <h4>Random Quote Generator</h4>
-              <h5>August 2015</h5>
-              <p>
-                In this project, I followed a tutorial that helps you make a
-                random quote generator that you can post your favorite posts
-                to Twitter.
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://codepen.io/michaelFF/full/bpMQap"
-                  target="_blank">www.codepen.io/michaelFF.com</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid-item item-five pers fs">
-          <a class="image-modal" href="#image-modal5">
-            <img src="assets/images/projects/tribute.png" alt="" />
-
-            <div class="itemHover"></div>
-            <h4>Basic Tribute Page</h4>
-            <h6>Front-end</h6>
-          </a>
-
-          <div id="image-modal5" class="mfp-hide modal-box">
-            <img src="assets/images/projects/tribute.png" alt="assets/images/2.jpg" />
-            <div class="modal-box-content">
-              <h4>Basic Tribute Page</h4>
-              <h5>August 2015</h5>
-              <p>
-                My very first personal project, built while learning how to use the
-                bootstrap framework and code pen.
-              </p>
-              <h5>
-                <a class="portfolio_links" href="https://codepen.io/michaelFF/full/ZQZxdB"
-                  target="_blank">www.codepen.io/michaelFF.com</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- section Journal
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <section id="sectionJournal">
-    <div class="container">
-      <div class="sectionTitle">
-        <h1>Articles</h1>
-        <span>From work accomplishments</span>
-      </div>
-
-      <div class="row ">
-        <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
-          <a href="https://www.dotmodus.com/za/customers/sa-taxi" target="_blank">
-            <div class=" journal-text">
-              <div class="category">
-                Chatbot
-              </div>
-              <h1>Keeping 15 million journeys running smoothly with Google Cloud Platform</h1>
-              <h2>Posted 15 july 2021</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="row ">
-        <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
-          <a href="https://www.dotmodus.com/za/customers/university-of-pretoria/" target="_blank">
-            <div class=" journal-text">
-              <div class="category category-left">
-                Google Cloud
-              </div>
-              <div class="journal-right">
-                <h1>Chatbot Boosts Student Wellbeing at University of Pretoria</h1>
-                <h2>Posted 1 July 2021</h2>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="row ">
-        <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
-          <a href="https://diversitybyinclusion.com/dotmodus-chatbot-boosts-students-mental-health/" target="_blank">
-            <div class=" journal-text">
-              <div class="category">
-                Chatbot
-              </div>
-              <h1>DOTMODUS CHATBOT BOOSTS STUDENTS’ MENTAL HEALTH</h1>
-              <h2>Posted 15 June 2021</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="row ">
-        <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
-          <a href="https://www.iol.co.za/education/universities/up-launches-counselling-chatbot-to-provide-students-with-mental-health-care-31e063ac-d90d-4ac3-9577-b5ab28b26c1a"
-            target="_blank">
-            <div class=" journal-text">
-              <div class="category category-left">
-                Google Cloud
-              </div>
-              <div class="journal-right">
-                <h1>UP launches counselling chatbot to provide students with mental health care</h1>
-                <h2>Posted 1 April 2021</h2>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="row ">
-        <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
-          <a href="https://harambee.co.za/google-highlights-harambees-use-of-big-data-to-solve-youth-unemployment/"
-            target="_blank">
-            <div class=" journal-text">
-              <div class="category">
-                Harambee
-              </div>
-              <h1>Google highlights our use of big data to solve youth unemployment</h1>
-              <h2>Posted 27 June 2018</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="row ">
-        <div class="col-md-12 col-sm-12 col-xs-12 journal-line">
-          <a href="https://cloud.google.com/customers/harambee/" target="_blank">
-            <div class=" journal-text">
-              <div class="category category-left">
-                Google Cloud
-              </div>
-              <div class="journal-right">
-                <h1>Harambee Youth Employment Accelerator: Solving the youth unemployment challenge</h1>
-                <h2>Posted 19 December 2019</h2>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- section Contact
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <section id="sectionContact">
-    <div class="container">
-      <div class="sectionTitle">
-        <h1>Get In Touch</h1>
-        <span>Contact</span>
-      </div>
-
-      <div class="contactForm row">
-        <div class="col-md-6 col-sm-12 col-xs-12 contactLeft">
-          <!--MESSAGE SENT SUCCESFULLY-->
-          <div id="message"></div>
-
-          <!--MAIN FORM-->
-
-          <form method="post" name="contactform" id="contactform">
-            <fieldset>
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <input name="name" type="text" id="name" placeholder="Name* :" size="30" value="" />
-              </div>
-
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <input name="email" type="text" id="email" placeholder="E-mail* :" size="30" value="" />
-              </div>
-
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <input name="subject" type="text" id="subject" placeholder="Subject* :" size="30" value="" />
-              </div>
-
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <textarea name="comments" cols="40" rows="3" placeholder="Message* :" id="comments"></textarea>
-              </div>
-
-              <input type="submit" class="submit" id="submit" value="Send message" />
-            </fieldset>
-          </form>
-          <!--END Main form-->
-        </div>
-
-        <div class="col-md-6 col-sm-12 col-xs-12">
-          <div id="map"></div>
-        </div>
-      </div>
-      <!-- END contact FORM-->
-    </div>
-  </section>
-
-  <!-- Footer
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <footer class="pFooter">
-    <div class="container-fluid">
-      <div class="col-md-6 col-sm-12 col-xs-12 fCopy">
-        Copyright © <span>Michael Botes</span> 2021 All rights reserved.
-      </div>
-
-      <div class="col-md-6 col-sm-12 col-xs-12 fIcons">
-        <a href="https://www.linkedin.com/in/michael-botes-95746bb5/" target="_blank">
-          <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" />
-        </a>
-        <a href="https://www.instagram.com/michael_boats/" target="_blank">
-          <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" />
-        </a>
-        <a href="https://github.com/Mbotes" target="_blank">
-          <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
-        </a>
-        <a href="https://medium.com/@michaelbotes" target="_blank">
-          <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/medium.svg" />
-        </a>
-        <a href="https://dev.to/mbotes" target="_blank">
-          <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dev-dot-to.svg" />
-        </a>
-      </div>
-    </div>
-  </footer>
-
-  <!--  Javascripts
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="assets/js/jquery-2.1.3.js"></script>
-  <script src="assets/js/bootstrap.js"></script>
-  <script src="assets/js/modernizr.custom.js"></script>
-  <script src="assets/js/contactform.js"></script>
-  <!-- Navigation menu-->
-  <script src="assets/js/classie.js"></script>
-  <script src="assets/js/menu-top.js"></script>
-  <script src="assets/js/nav-active.js"></script>
-  <script src="assets/js/jquery.easing.js"></script>
-  <!--JS for MAGNIFIC POPUP & ALL SCRIPTS& CALLS-->
-  <script src="assets/js/scripts.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <!-- WOW ANIMATIONS -->
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/jquery-parallax.js"></script>
-  <!-- Masonry Package -->
-  <script src="assets/js/isotope.pkgd.min.js"></script>
-  <script src="assets/js/isotope-jquery.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-  <!-- Send EMailJS -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("user_YHzZkA4oF9bzYhd9rXM0r");
-    })();
-  </script>
-
-  <script type="text/javascript">
-    window.onload = function () {
-      document.getElementById('contactform').addEventListener('submit', function (event) {
-        event.preventDefault();
-        // generate the contact number value
-        emailjs.sendForm('gmail', 'contact_form', this)
-          .then(function (response) {
-            console.log('SUCCESS!', response.status, response.text);
-            alert('email sent succesfully :)')
-          }, function (error) {
-            console.log('FAILED...', error);
-            alert('email failed to send :< ')
-          });;
-      });
-    }
-  </script>
-
-  <!-- VANTA Package -->
-  <script src="assets/js/three.r92.min.js"></script>
-  <script src="assets/js/vanta.net.min.js"></script>
-  <script src="assets/js/vanta.birds.min.js"></script>
-
-  <script>
-    function checkDate() {
-      var date = new Date();
-      var day = date.getDate();
-
-      if (day % 2) {
-        console.log("Today is a even date and therefore you get Birds!")
-        return true
-      } else {
-        console.log("Today is a odd date and therefore you get Nets!")
-        return false
-      }
-    }
-
-    if (checkDate()) {
-      VANTA.BIRDS({
-        el: "#sectionIntro",
-        backgroundColor: "#303948",
-        color2: "#f73d3d",
-        colorMode: "lerp",
-        birdSize: 1.3,
-        wingSpan: 40.0,
-        speedLimit: 3.0,
-        separation: 100.0,
-        alignment: 40.0,
-        cohesion: 100.0,
-        quantity: 3.0,
-        backgroundAlpha: 1
-      });
-    } else {
-      VANTA.NET({
-        el: "#sectionIntro",
-        color: "#f73d3d",
-        backgroundColor: "#303948",
-        points: 7.0,
-        spacing: 28.0
-      });
-    }
-
-  </script>
-
-  <script>
-    $(window).load(function () {
-      "use strict";
-
-      var $container = $("#masonry-grid");
-      $container.isotope({
-        itemSelector: ".grid-item"
-      });
-    });
-  </script>
-
-  <script type="text/javascript">
-    $(document).ready(function () {
-      "use strict";
-
-      //.parallax(xPosition, speedFactor, outerHeight) options:
-      //xPosition - Horizontal position of the element
-      //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-      //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-      $("#sectionIntro").parallax({ coeff: +0.5 });
-      $(".imageIntro").parallax({ coeff: +0.4 });
-    });
-  </script>
-
-  <!-- GOGGLE MAP
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script type="text/javascript"
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI38eqy4Lgi4x6jqNfMZmlztSyZNewwmY"></script>
-
-  <script type="text/javascript">
-    // When the window has finished loading create our google map below
-    google.maps.event.addDomListener(window, "load", init);
-
-    function init() {
-      // Basic options for a simple Google Map
-      // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-      var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
-        zoom: 11,
-
-        // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(-26.1457, 28.1597), // New York
-
-        // How you would like to style the map.
-        // This is where you would paste any style found on Snazzy Maps.
-        styles: [
-          {
-            featureType: "administrative",
-            elementType: "labels.text.fill",
-            stylers: [{ color: "#444444" }]
-          },
-          {
-            featureType: "landscape",
-            elementType: "all",
-            stylers: [{ color: "#f2f2f2" }]
-          },
-          {
-            featureType: "poi",
-            elementType: "all",
-            stylers: [{ visibility: "off" }]
-          },
-          {
-            featureType: "road",
-            elementType: "all",
-            stylers: [{ saturation: -100 }, { lightness: 45 }]
-          },
-          {
-            featureType: "road.highway",
-            elementType: "all",
-            stylers: [{ visibility: "simplified" }]
-          },
-          {
-            featureType: "road.arterial",
-            elementType: "labels.icon",
-            stylers: [{ visibility: "off" }]
-          },
-          {
-            featureType: "transit",
-            elementType: "all",
-            stylers: [{ visibility: "off" }]
-          },
-          {
-            featureType: "water",
-            elementType: "all",
-            stylers: [{ color: "#505a65" }, { visibility: "on" }]
-          }
-        ]
+    <script src="assets/js/jquery-2.1.3.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/contactform.js"></script>
+    <!-- Navigation menu-->
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/menu-top.js"></script>
+    <script src="assets/js/nav-active.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <!--JS for MAGNIFIC POPUP & ALL SCRIPTS& CALLS-->
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- WOW ANIMATIONS -->
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery-parallax.js"></script>
+    <!-- Masonry Package -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/isotope-jquery.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- Send EMailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_YHzZkA4oF9bzYhd9rXM0r");
+      })();
+    </script>
+
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .getElementById("contactform")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            // generate the contact number value
+            emailjs.sendForm("gmail", "contact_form", this).then(
+              function (response) {
+                console.log("SUCCESS!", response.status, response.text);
+                alert("email sent succesfully :)");
+              },
+              function (error) {
+                console.log("FAILED...", error);
+                alert("email failed to send :< ");
+              }
+            );
+          });
       };
+    </script>
 
-      // Get the HTML DOM element that will contain your map
-      // We are using a div with id="map" seen below in the <body>
-      var mapElement = document.getElementById("map");
+    <!-- VANTA Package -->
+    <script src="assets/js/three.r92.min.js"></script>
+    <script src="assets/js/vanta.net.min.js"></script>
+    <script src="assets/js/vanta.birds.min.js"></script>
 
-      // Create the Google Map using our element and options defined above
-      var map = new google.maps.Map(mapElement, mapOptions);
+    <script>
+      function checkDate() {
+        var date = new Date();
+        var day = date.getDate();
 
-      // Let's also add a marker while we're at it
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(-26.1457, 28.1597),
-        map: map,
-        title: "Snazzy!"
+        if (day % 2) {
+          console.log("Today is a even date and therefore you get Birds!");
+          return true;
+        } else {
+          console.log("Today is a odd date and therefore you get Nets!");
+          return false;
+        }
+      }
+
+      if (checkDate()) {
+        VANTA.BIRDS({
+          el: "#sectionIntro",
+          backgroundColor: "#303948",
+          color2: "#f73d3d",
+          colorMode: "lerp",
+          birdSize: 1.3,
+          wingSpan: 40.0,
+          speedLimit: 3.0,
+          separation: 100.0,
+          alignment: 40.0,
+          cohesion: 100.0,
+          quantity: 3.0,
+          backgroundAlpha: 1,
+        });
+      } else {
+        VANTA.NET({
+          el: "#sectionIntro",
+          color: "#f73d3d",
+          backgroundColor: "#303948",
+          points: 7.0,
+          spacing: 28.0,
+        });
+      }
+    </script>
+
+    <script>
+      $(window).load(function () {
+        "use strict";
+
+        var $container = $("#masonry-grid");
+        $container.isotope({
+          itemSelector: ".grid-item",
+        });
       });
-    }
+    </script>
 
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157990261-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <script type="text/javascript">
+      $(document).ready(function () {
+        "use strict";
 
-    gtag('config', 'UA-157990261-1');
-  </script>
-</body>
+        //.parallax(xPosition, speedFactor, outerHeight) options:
+        //xPosition - Horizontal position of the element
+        //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+        //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+        $("#sectionIntro").parallax({ coeff: +0.5 });
+        $(".imageIntro").parallax({ coeff: +0.4 });
+      });
+    </script>
 
+    <!-- GOGGLE MAP
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI38eqy4Lgi4x6jqNfMZmlztSyZNewwmY"
+    ></script>
+
+    <script type="text/javascript">
+      // When the window has finished loading create our google map below
+      google.maps.event.addDomListener(window, "load", init);
+
+      function init() {
+        // Basic options for a simple Google Map
+        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions = {
+          // How zoomed in you want the map to start at (always required)
+          zoom: 11,
+
+          // The latitude and longitude to center the map (always required)
+          center: new google.maps.LatLng(-26.1457, 28.1597), // New York
+
+          // How you would like to style the map.
+          // This is where you would paste any style found on Snazzy Maps.
+          styles: [
+            {
+              featureType: "administrative",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#444444" }],
+            },
+            {
+              featureType: "landscape",
+              elementType: "all",
+              stylers: [{ color: "#f2f2f2" }],
+            },
+            {
+              featureType: "poi",
+              elementType: "all",
+              stylers: [{ visibility: "off" }],
+            },
+            {
+              featureType: "road",
+              elementType: "all",
+              stylers: [{ saturation: -100 }, { lightness: 45 }],
+            },
+            {
+              featureType: "road.highway",
+              elementType: "all",
+              stylers: [{ visibility: "simplified" }],
+            },
+            {
+              featureType: "road.arterial",
+              elementType: "labels.icon",
+              stylers: [{ visibility: "off" }],
+            },
+            {
+              featureType: "transit",
+              elementType: "all",
+              stylers: [{ visibility: "off" }],
+            },
+            {
+              featureType: "water",
+              elementType: "all",
+              stylers: [{ color: "#505a65" }, { visibility: "on" }],
+            },
+          ],
+        };
+
+        // Get the HTML DOM element that will contain your map
+        // We are using a div with id="map" seen below in the <body>
+        var mapElement = document.getElementById("map");
+
+        // Create the Google Map using our element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
+
+        // Let's also add a marker while we're at it
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(-26.1457, 28.1597),
+          map: map,
+          title: "Snazzy!",
+        });
+      }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-157990261-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-157990261-1");
+    </script>
+  </body>
 </html>
